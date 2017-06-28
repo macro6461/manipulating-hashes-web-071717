@@ -6,8 +6,6 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  #code your solution here!
-
-  
-
+  #code your solution here! #get just the values in one array (not in multiple arrays!)
+  groceries.values.flatten(1)
 end
